@@ -1,4 +1,1 @@
-cd /home/ubuntu/app
-npm i
-
-
+npm --prefix /home/ubuntu/app install /home/ubuntu/app

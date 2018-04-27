@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '/Users/dave/Desktop/codedeploytest/package.json' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData /Users/dave/Desktop/codedeploytest/package.json
+8 silly fetchOtherPackageData /Users/dave/Desktop/codedeploytest/package.json
+9 silly cache add args [ '/Users/dave/Desktop/codedeploytest/package.json', null ]
+10 verbose cache add spec /Users/dave/Desktop/codedeploytest/package.json
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: '/Users/dave/Desktop/codedeploytest/package.json',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: '/Users/dave/Desktop/codedeploytest/package.json',
+11 silly cache add   spec: '/Users/dave/Desktop/codedeploytest/package.json',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) a44c230e6ccfda9681eba3eb6a4fc1914f746a11
+13 verbose addTmpTarball /Users/dave/Desktop/codedeploytest/package.json not in flight; adding
+14 verbose correctMkdir /Users/dave/.npm correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from /Users/dave/Desktop/codedeploytest/package.json
+16 verbose tar unpack /Users/dave/Desktop/codedeploytest/package.json
+17 verbose tar unpacking to /var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06
+18 silly gentlyRm /var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06 is being purged
+19 verbose gentlyRm don't care about contents; nuking /var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /Users/dave/Desktop/codedeploytest/package.json
+22 error addLocal Could not install /Users/dave/Desktop/codedeploytest/package.json
+23 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData  error for /Users/dave/Desktop/codedeploytest/package.json { Error: ENOENT: no such file or directory, open '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData   errno: -2,
+23 silly fetchPackageMetaData   code: 'ENOENT',
+23 silly fetchPackageMetaData   syscall: 'open',
+23 silly fetchPackageMetaData   path: '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json' }
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json'
+28 verbose stack     at Error (native)
+29 verbose cwd /Users/dave/Desktop/codedeploytest
+30 error Darwin 17.5.0
+31 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "/Users/dave/Desktop/codedeploytest/package.json"
+32 error node v6.11.0
+33 error npm  v3.10.10
+34 error path /var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json
+35 error code ENOENT
+36 error errno -2
+37 error syscall open
+38 error enoent ENOENT: no such file or directory, open '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json'
+39 error enoent ENOENT: no such file or directory, open '/var/folders/2k/pgyx4y5s0kxghmdmkbcj5xqw0000gn/T/npm-49585-b9d9e9ef/unpack-8db2cb06/package.json'
+39 error enoent This is most likely not a problem with npm itself
+39 error enoent and is related to npm not being able to find a file.
+40 verbose exit [ -2, true ]
