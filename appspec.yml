@@ -1,16 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /appspec.yml
-    destination: /home/ubuntu/app/appspec.yml
-  - source: /install.sh
-    destination: /home/ubuntu/app/install.sh
-  - source: /package.json
-    destination: /home/ubuntu/app/package.json
-  - source: /server.js
-    destination: /home/ubuntu/app/server.js
-  - source: /start.sh
-    destination: /home/ubuntu/app/start.sh
+  - source: /
+    destination: /home/ubuntu/app/
 hooks:
   BeforeInstall:
     - location: install.sh
