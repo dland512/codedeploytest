@@ -1,2 +1,2 @@
-cd /home/ubuntu
+cd /home/ubuntu/app
 npm i
