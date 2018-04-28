@@ -6,15 +6,16 @@ files:
 hooks:
   BeforeInstall:
     - location: install.sh
-      timeout: 300
+      timeout: 30
       runas: root
       mode: 777
+  ApplicationStart:
     - location: start.sh
-      timeout: 300
+      timeout: 30
       runas: root
       mode: 777
   ApplicationStop:
     - location: stop.sh
-      timeout: 300
+      timeout: 30
       runas: root
       mode: 777
