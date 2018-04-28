@@ -1,1 +1,2 @@
-node /home/ubunut/app/server.js
+cd /home/ubuntu
+node server.js
