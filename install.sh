@@ -1,3 +1,2 @@
-echo 'wtf?????'
 cd /home/ubuntu/app
 npm i
